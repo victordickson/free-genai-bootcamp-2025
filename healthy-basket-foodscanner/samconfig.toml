@@ -4,7 +4,7 @@ stack_name = "healthy-basket-food-scanner"
 resolve_s3 = true
 s3_prefix = "healthy-basket-food-scanner"
 region = "us-east-1"
-profile = "cloudplexo-dev"
+profile = "dev"
 confirm_changeset = true
 capabilities = "CAPABILITY_IAM"
 image_repositories = ["FastAPIFunction=2760234876.dkr.ecr.us-east-1.amazonaws.com/healthybasketfoodscanner20e9023a/fastapifunctionead79d0drepo"]
